@@ -282,6 +282,8 @@ a:focus {
 .slider_section #customCarousel1 {
   width: 100%;
   position: unset;
+  height: 40vh;
+  margin-bottom: 3em;
 }
 
 .slider_section .detail-box h1 {
@@ -436,14 +438,14 @@ a:focus {
 }
 
 .about_section .detail-box p {
-  color: #999;
+  /* color: #999; */
   margin-top: 15px;
 }
 
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #625a52;
+  background-color: #28a745;
   color: #ffffff;
   border-radius: 5px;
   border: 1px solid #625a52;
@@ -454,7 +456,7 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #625a52;
+  color: #28a745;
 }
 
 .why_section {
