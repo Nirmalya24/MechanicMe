@@ -247,6 +247,17 @@ a:focus {
 
 /*end header section*/
 /* slider section */
+
+/* .carousel-inner {
+  height: 500px;
+} */
+
+/* @media (max-width: 767px) {
+  .slider_section {
+    height: 300px;
+  }
+} */
+
 .slider_section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,7 +355,7 @@ a:focus {
 
 .slider_section .carousel-indicators {
   position: unset;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .slider_section .carousel-indicators li {
@@ -460,7 +471,15 @@ a:focus {
 }
 
 .why_section {
+  margin-top: 20%;
   position: relative;
+}
+
+/* media screen  */
+@media screen and (max-width: 700px) {
+  .why_section {
+    margin-top: 35%;
+  }
 }
 
 .why_section .box {
@@ -572,6 +591,10 @@ a:focus {
 
 .client_section .box p {
   margin-top: 25px;
+}
+
+.hero-img {
+  aspect-ratio: 1/1;
 }
 
 .client_section .carousel-control-prev,
